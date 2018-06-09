@@ -50,7 +50,7 @@ class Game extends React.Component<any, GameState> {
           handleClick={(value: number) => this.handleClick(value)}
           currentGameBoard={currentBoard}
         />
-        {!!winner || isBoardFull(currentBoard) && (
+        {(!!winner || isBoardFull(currentBoard)) && (
           <div className="rematch-button" onClick={() => this.resetBoard()}>
             REMATCH
           </div>
