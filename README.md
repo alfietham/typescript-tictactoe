@@ -1,10 +1,12 @@
 # React TypeScript Tic-Tac-Toe
 
-Inspired by the intro to React tutorial: https://reactjs.org/tutorial/tutorial.html
+## Features
 
-With React Web and Typescript
+- React and Typescript
 
-Using `webpack` for the build
+- Using `webpack` for the build
+
+- Responsive web app
 
 ## Quick Start
 
@@ -20,3 +22,7 @@ Have webpack installed globally to use webpack
 
 - `npm run build`
 - Deploy and serve static files (e.g. using `pushstate-server`)
+
+## Reference
+
+Inspired by the intro to React tutorial: https://reactjs.org/tutorial/tutorial.html

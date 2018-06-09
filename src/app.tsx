@@ -1,7 +1,10 @@
 import * as React from 'react';
 
+import Game from './components/game';
+
 export const App = () => (
-  <h1>
-    React Typescript Tic-tac-toe!
-  </h1>
+  <div className="app">
+    <div className="app-title">React Typescript Tic-tac-toe!</div>
+    <Game />
+  </div>
 );

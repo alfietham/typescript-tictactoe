@@ -1,0 +1,61 @@
+body {
+  font-size: 5vw;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.app-title {
+  font-size: 7vw;
+  width: 13em;
+  margin: 1em auto 1em auto;
+}
+
+.game {
+  margin: auto;
+}
+
+.game-status {
+  padding: 1.5em 0 1em 0;
+  text-align: center;
+}
+
+.board {
+  width: 75vw;
+  height: 75vw;
+  margin: auto;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  height: 33%;
+  width: 33%;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  float: left;
+  font-size: 3em;    
+  font-weight: 500;
+  text-align: center;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.rematch-button {
+  height: 50%;
+  width: 50%;    
+  margin: 5% auto 5% auto;
+  text-align: center;
+  padding: 3%;
+  background-color: #888888;
+  color: #fff;
+  box-shadow: 5px 5px 6px 0px #d8d8d8;
+  border-radius: 0.3em;
+}
+
+.rematch-button:focus {
+  outline: none;
+}
+
+
