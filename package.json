@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Tic-tac-toe with Typescript and React",
   "scripts": {
-    "dev": "webpack --watch"
+    "dev": "webpack --watch",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && webpack && cp ./src/index.html ./dist && cp ./src/styles.css ./dist"
   },
   "author": "Alfie Tham",
   "dependencies": {
